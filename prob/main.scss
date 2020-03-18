@@ -1,0 +1,79 @@
+.bg-black  {
+    background: #000;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.site-header {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.main-container {
+    input {
+        border-radius: 0;
+    }
+
+    input[type=text], input[type=password], textarea {
+        width: 25%;
+        padding: 5px;
+        border: 1px solid #ccc;
+    }
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+  }
+
+.content {
+    flex: 1 0 auto;
+}
+
+.main-footer {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        color: #000;
+    } 
+    flex-shrink: 0;
+}
+
+.image-container {
+    width: 25%;
+    height: 200px;
+    margin: 0 auto;
+    padding: .5rem 0;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+.green-border {
+    border: 1px solid green !important;
+}
+
+.red-border {
+    border: 1px solid red !important;
+}
+
+.red-text {
+    color: red;
+}
